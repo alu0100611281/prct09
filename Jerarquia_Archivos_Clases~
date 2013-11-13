@@ -1,7 +1,5 @@
 karen@karen-Aspire-5750G:~/LPP/prct09$ tree
 .
-├── Guardfile
-├── Jerarquia_Archivos_Clases
 ├── mygem
 │   ├── Gemfile
 │   ├── Gemfile~
@@ -17,13 +15,12 @@ karen@karen-Aspire-5750G:~/LPP/prct09$ tree
 │   ├── Rakefile
 │   ├── Rakefile~
 │   └── README.md
-├── Rakefile
 ├── Readme
 └── spec
     ├── Matriz.rb
     └── spec_helper.rb
 
-4 directories, 18 files
+4 directories, 15 files
 
 
 Creación de matrices y su herencia
