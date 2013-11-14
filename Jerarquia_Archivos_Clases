@@ -28,12 +28,37 @@ karen@karen-Aspire-5750G:~/LPP/prct09$ tree
 
 Creación de matrices y su herencia
 
- a) Tenemos pensado definir una clase madre llamada MatrizDensa
- b) Luego crearemos otra clase llamada MatrizDispersa que hererará de MatrizDensa sus métodos para poder trabajar con las matrices
+ a) Crearemos una clase Matriz_Original
+ b) Luego crearemos dos clases más llamadas clase MatrizDispersa y otra clase MatrizDensa, que serán hijas
+    de la clase Matriz_Original.
+
+ En la clase MatrizDispersa utilizaremos vectores para guardar las posiciones no nulas de la matriz original,
+ los vectores serán:
+ 	- Vector para guardar la posición de los elementos no nulos.
+ 	- Vector para guardar los valores de esa posición.
+ Guardaremos también el número de elementos de la matriz original y de los elementos no nulos.
+ 
+ 
+ Ejemplos de matrices:
+ 
+ -- MATRIZ ORIGINAL ---
+
+5.254560 0.000000 5.354560 5.254000
+5.754560 6.000000 0.000000 0.000000
+5.254580 0.000000 0.000000 0.000000
 
 
-		class MatrizDensa
+--- MATRIZ DENSA  --- 
 
+5.254560 0.000000 5.354560 5.254000
+5.754560 6.000000 0.000000 0.000000
+5.254580 0.000000 5.485960 5.789540
 
+--- MATRIZ DISPERSA ---
 
-		class MatrizDispersa < MatrizDensa
+C0: ( 0 5.254560 ) ( 1 5.754560 ) ( 3 5.254580 )
+C1: ( 0 5.754560 ) ( 1 6.000000 )
+C2: ( 0 5.254580 )
+C3: ( 0 5.254000 )
+
+ 
