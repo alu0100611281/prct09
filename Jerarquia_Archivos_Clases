@@ -1,27 +1,21 @@
 karen@karen-Aspire-5750G:~/LPP/prct09$ tree
 .
-├── Guardfile
 ├── Jerarquia_Archivos_Clases
 ├── mygem
-│   ├── Gemfile
-│   ├── Gemfile~
 │   ├── lib
-│   │   ├── Matriz.rb
-│   │   ├── Matriz.rb~
+|   |   ├──Matriz.rb
 │   │   ├── mygem
 │   │   │   └── version.rb
 │   │   └── mygem.rb
 │   ├── LICENSE.txt
 │   ├── mygem.gemspec
-│   ├── mygem.gemspec~
 │   ├── Rakefile
-│   ├── Rakefile~
+│   ├── Gemfile
+|   ├── Guardfile
 │   └── README.md
-├── Rakefile
-├── Readme
-└── spec
-    ├── Matriz.rb
-    └── spec_helper.rb
+|   ├── spec
+       ├── Matriz_spec.rb
+       └── spec_helper.rb
 
 4 directories, 18 files
 
